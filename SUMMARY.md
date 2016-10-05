@@ -1,3 +1,6 @@
-# Summary
+# Table of Contents
 
-* [First Chapter](chapter1.md)
+* [Developers](developers/README.md)
+	* [Installation](developers/installation.md)
+* [Readers](readers/README.md)
+* [Presses](presses/README.md)
