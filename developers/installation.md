@@ -39,16 +39,18 @@ rake db:seed
 cp .env.sampl .env
 ```
 
+### 4. Setup the Environment
+
 Note the last command, in which you copy and rename the sample .env file. In keeping with the [principals of a 12-factor app](https://12factor.net/), we use dotenv to [store configuration in the environment](https://12factor.net/config). You'll need to update this .env file to contain other environment-specific configuration as follows:
 
 ```
 export API_DOMAIN={the domain you want to serve the API on}
-export APP_SOCKET_PATH={path to where the socket should be placed}
-export API_PORT=3008
+export APP_SOCKET_PATH={path to where the socket should be placed, optional}
+export API_PORT={port you want to run the API on. Defaults to 3008} 
 export SECRET_KEY={your key}
 export RAILS_DB_USER={db username}
 export RAILS_DB_PASS={db password}
 export RAILS_DB_NAME={db name}
 ```
 
-Our team typically serves Rails apps on unix sockets during development, and proxies to them using Nginx. We do this, rather than running the Rails app on a specific port as is the norm, so that we can access the various projects we're working on via the domain name during development. We recognize that this workflow may not work for you, 
+Our team typically serves Rails apps on unix sockets during development, and proxies to them using Nginx. We do this, rather than running the Rails app on a specific port as is the norm, so that we can access the various projects we're working on via the domain name during development. We recognize that this workflow may not work for you, which is why we also provide it as a socket. The API_DOMAIN variable is necessary so that links to content on the API server (such as EPUB resources) can be generated. If, for example, you're running the API locally on port 3008, you'd want API_DOMAIN to be "http://127.0.0.1" and the API_PORT to be "3008".
