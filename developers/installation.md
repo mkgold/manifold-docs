@@ -54,3 +54,37 @@ export RAILS_DB_NAME={db name}
 ```
 
 Our team typically serves Rails apps on unix sockets during development, and proxies to them using Nginx. We do this, rather than running the Rails app on a specific port as is the norm, so that we can access the various projects we're working on via the domain name during development. We recognize that this workflow may not work for you, which is why we also provide it as a socket. The API_DOMAIN variable is necessary so that links to content on the API server (such as EPUB resources) can be generated. If, for example, you're running the API locally on port 3008, you'd want API_DOMAIN to be "http://127.0.0.1" and the API_PORT to be "3008".
+
+### 5. Start the API server
+
+Go ahead and start the API server.
+
+```
+cd ~/src/manifold/api
+./bin/puma
+```
+
+If all goes according to plan, you should see output more or less like this, depending on your environment:
+
+```
+Puma starting in single mode...
+* Version 3.6.0 (ruby 2.2.3-p173), codename: Sleepy Sunday Serenity
+* Min threads: 0, max threads: 16
+* Environment: development
+* Listening on unix:///opt/boxen/data/project-sockets/manifold-api
+* Listening on tcp://127.0.0.1:3008
+* Starting control server on unix:///opt/boxen/data/project-sockets/manifold-api-control
+Use Ctrl-C to stop
+```
+
+### 6. Import some EPUBs
+
+Eventually, Manifold will have a backend interface for adding texts to projects. Until that is completed, this takes place through the command line interface. Drop some EPUB files in ~/src/manifold/user_texts and execute a rake task to ingest them into the application:
+
+```
+rake ingest:user_texts
+```
+
+### 7. Install client dependencies
+
+Navigate to the client directory and install NPM dependencies. If you don't have NPM installed, [go ahead and install it](http://blog.npmjs.org/post/85484771375/how-to-install-npm).
