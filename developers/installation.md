@@ -88,3 +88,41 @@ rake ingest:user_texts
 ### 7. Install client dependencies
 
 Navigate to the client directory and install NPM dependencies. If you don't have NPM installed, [go ahead and install it](http://blog.npmjs.org/post/85484771375/how-to-install-npm).
+
+```
+cd ~/src/manifold/client
+npm install
+```
+
+The initial installation of NPM packages could take a few minutes, so be patient!
+
+### 8. Start the client server
+
+From the client directory, start the client server. There are a number of commands in the `/client/package.json` that we use for starting servers, building assets, etc. Go ahead and start the server:
+
+```
+npm run start
+```
+
+You'll see a bit of output, including this summary:
+
+```
+🎉 MANIFOLD WEBPACK SERVER
+-------------------------------------------------------------------------------
+Manifold Asset Server, a.k.a. Webpack, is listening at http://127.0.0.1:3001
+
+🌎 MANIFOLD REST API
+-------------------------------------------------------------------------------
+The Manifold client expects to find the API at the following paths:
+
+http://manifold-api.dev:80/api
+http://manifold-api.dev:80/system
+
+📚 UNIVERSAL CLIENT SERVER
+-------------------------------------------------------------------------------
+Manifold Client is listening at http://127.0.0.1:3002
+```
+
+This should start the Manifold client app on port 3000. Visit http://localhost:3000 and see if it worked!
+
+Depending on how you run the API, you may need to update /client/.env to point to it. There's a variable in the client environment, MANIFOLD_API_URL, that tells the client how where to locate the API backend. Adjust this environment variable to match your approach to running the API.
