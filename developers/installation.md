@@ -39,7 +39,7 @@ rake db:seed
 cp .env.sampl .env
 ```
 
-### 4. Setup the Environment
+### 4. Setup the API Environment
 
 Note the last command, in which you copy and rename the sample .env file. In keeping with the [principals of a 12-factor app](https://12factor.net/), we use dotenv to [store configuration in the environment](https://12factor.net/config). You'll need to update this .env file to contain other environment-specific configuration as follows:
 
