@@ -14,7 +14,7 @@ The following diagram provides a high level overview of Manifold's architecture.
 
 ### Contributing
 
-To contribute to Manifold, you'll want to setup a local development environment. Read the Installation guide to learn how to install Manifold in your local development environment.
+To contribute to Manifold, you'll want to setup a local development environment. Read the [Installation guide](/developers/installation.md) to learn how to install Manifold in your local development environment.
 
 
 
