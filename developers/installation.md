@@ -8,5 +8,17 @@ In ortder to run Manifold, you'll need the most recent stable version of Ruby, a
 
 You will also need a functioning installation of Postgres. We use Homebrew to manage our OSX Postgres installation. The Postgres website provides instructions on [installing Postgres on OSX](https://www.postgresql.org/download/macosx/). There are also a number of helpful resources online about running Postgres in a development environment, [such as this one.](https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql/)
 
+Finally, you'll want to have Redis installed for processing background jobs. Again, we've had good luck installing it with Homebrew: `brew install redis`
 
+### 1. Clone the repository
+
+Because we rely heavily on Boxen for configuring our development environments, we typically store our projects in `~\/src`, and these instructions will follow that convention. Of course, you can put it wherever you prefer. Start off by cloning the remote repository:
+
+```
+cd ~/src
+git clone https://github.com/ManifoldScholar/manifold.git
+```
+
+
+### 2. 
 
