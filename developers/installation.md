@@ -42,9 +42,13 @@ cp .env.sampl .env
 Note the last command, in which you copy and rename the sample .env file. In keeping with the [principals of a 12-factor app](https://12factor.net/), we use dotenv to [store configuration in the environment](https://12factor.net/config). You'll need to update this .env file to contain other environment-specific configuration as follows:
 
 ```
-export API_DOMAIN={the domain you want to serve the API on}export SECRET_KEY={your key}
+export API_DOMAIN={the domain you want to serve the API on}
+export APP_SOCKET_PATH={path to where the socket should be placed}
+export API_PORT=3008
+export SECRET_KEY={your key}
 export RAILS_DB_USER={db username}
 export RAILS_DB_PASS={db password}
 export RAILS_DB_NAME={db name}
 ```
 
+Our team typically serves Rails apps on unix sockets during development, and proxies to them using Nginx. We do this, rather than running the Rails app on a specific port as is the norm, so that we can access the various projects we're working on via the domain name during development. We recognize that this workflow may not work for you, 
