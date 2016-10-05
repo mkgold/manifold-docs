@@ -1,3 +1,4 @@
-# My Awesome Book
+# Manifold Scholarship
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Manifold is an intuitive, collaborative platform for scholarly publishing. With iterative texts, powerful annotation tools, rich media support, and robust community dialogue, Manifold transforms scholarly publications into living digital works.
+
