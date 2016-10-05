@@ -17,8 +17,34 @@ Because we rely heavily on Boxen for configuring our development environments, w
 ```
 cd ~/src
 git clone https://github.com/ManifoldScholar/manifold.git
+cd ~/src/manifold
 ```
 
+### 2. Install top-level dependencies (optional)
 
-### 2. 
+We deploy Manifold to staging and production servers using Capistrano. The global deployment configuration is stored in /config. The Gemfile in the root of the repository includes Capistrano related dependencies. If you plan on deploying with Capistrano, you'll need to install these dependencies with bundler"
+
+`bundle install`
+
+### 3. Install API dependencies
+
+We'll start the API server (Rails) before we setup and start the client application. The API is like most Rails projects, and to run it you'll need to install gem dependenceies, create the database, run migrations, and start the server.
+
+```
+cd ~/src/manifold/api
+bundle install
+rake db:create
+rake db:migrate
+rake db:seed
+cp .env.sampl .env
+```
+
+Note the last command, in which you copy and rename the sample .env file. In keeping with the [principals of a 12-factor app](https://12factor.net/), we use dotenv to [store configuration in the environment](https://12factor.net/config). You'll need to update this .env file to contain other environment-specific configuration as follows:
+
+```
+export API_DOMAIN={the domain you want to serve the API on}export SECRET_KEY={your key}
+export RAILS_DB_USER={db username}
+export RAILS_DB_PASS={db password}
+export RAILS_DB_NAME={db name}
+```
 
