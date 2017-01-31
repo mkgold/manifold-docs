@@ -8,6 +8,8 @@ In ortder to run Manifold, you'll need the most recent stable version of Ruby, a
 
 You will also need a functioning installation of Postgres. We use Homebrew to manage our OSX Postgres installation. The Postgres website provides instructions on [installing Postgres on OSX](https://www.postgresql.org/download/macosx/). There are also a number of helpful resources online about running Postgres in a development environment, [such as this one.](https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql/)
 
+Manifold search relies on ElasticSearch, which in turn relies on Java. On our development, staging, and production hosts, we are running ElasticSearch 5.1.x and Java 8. As with other dependencies, we've had good luck installing ElasticSearch with Homebrew on our development machines. 
+
 Finally, you'll want to have Redis installed for processing background jobs. Again, we've had good luck installing it with Homebrew: `brew install redis`
 
 ### 1. Clone the repository
@@ -20,7 +22,7 @@ git clone https://github.com/ManifoldScholar/manifold.git
 cd ~/src/manifold
 ```
 
-### 2. Install top-level dependencies (optional)
+### 2. Install top-level dependencies \(optional\)
 
 We deploy Manifold to staging and production servers using Capistrano. The global deployment configuration is stored in /config. The Gemfile in the root of the repository includes Capistrano related dependencies. If you plan on deploying with Capistrano, you'll need to install these dependencies with bundler"
 
@@ -28,7 +30,7 @@ We deploy Manifold to staging and production servers using Capistrano. The globa
 
 ### 3. Install API dependencies
 
-We'll start the API server (Rails) before we setup and start the client application. The API is like most Rails projects, and to run it you'll need to install gem dependenceies, create the database, run migrations, and start the server.
+We'll start the API server \(Rails\) before we setup and start the client application. The API is like most Rails projects, and to run it you'll need to install gem dependenceies, create the database, run migrations, and start the server.
 
 ```
 cd ~/src/manifold/api
@@ -53,7 +55,7 @@ export RAILS_DB_PASS={db password}
 export RAILS_DB_NAME={db name}
 ```
 
-Our team typically serves Rails apps on unix sockets during development, and proxies to them using Nginx. We do this, rather than running the Rails app on a specific port as is the norm, so that we can access the various projects we're working on via the domain name during development. We recognize that this workflow may not work for you, which is why we also provide it as a socket. The API_DOMAIN variable is necessary so that links to content on the API server (such as EPUB resources) can be generated. If, for example, you're running the API locally on port 3008, you'd want API_DOMAIN to be "http://127.0.0.1" and the API_PORT to be "3008".
+Our team typically serves Rails apps on unix sockets during development, and proxies to them using Nginx. We do this, rather than running the Rails app on a specific port as is the norm, so that we can access the various projects we're working on via the domain name during development. We recognize that this workflow may not work for you, which is why we also provide it as a socket. The API\_DOMAIN variable is necessary so that links to content on the API server \(such as EPUB resources\) can be generated. If, for example, you're running the API locally on port 3008, you'd want API\_DOMAIN to be "[http://127.0.0.1](http://127.0.0.1)" and the API\_PORT to be "3008".
 
 ### 5. Start the API server
 
@@ -79,7 +81,7 @@ Use Ctrl-C to stop
 
 ### 6. Import some EPUBs
 
-Eventually, Manifold will have a backend interface for adding texts to projects. Until that is completed, this takes place through the command line interface. Drop some EPUB files in ~/src/manifold/user_texts and execute a rake task to ingest them into the application:
+Eventually, Manifold will have a backend interface for adding texts to projects. Until that is completed, this takes place through the command line interface. Drop some EPUB files in ~/src/manifold/user\_texts and execute a rake task to ingest them into the application:
 
 ```
 rake ingest:user_texts
@@ -123,6 +125,7 @@ http://manifold-api.dev:80/system
 Manifold Client is listening at http://127.0.0.1:3002
 ```
 
-This should start the Manifold client app on port 3000. Visit http://localhost:3000 and see if it worked!
+This should start the Manifold client app on port 3000. Visit [http://localhost:3000](http://localhost:3000) and see if it worked!
 
-Depending on how you run the API, you may need to update /client/.env to point to it. There's a variable in the client environment, MANIFOLD_API_URL, that tells the client how where to locate the API backend. Adjust this environment variable to match your approach to running the API.
+Depending on how you run the API, you may need to update /client/.env to point to it. There's a variable in the client environment, MANIFOLD\_API\_URL, that tells the client how where to locate the API backend. Adjust this environment variable to match your approach to running the API.
+
