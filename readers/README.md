@@ -1,1 +1,4 @@
-Placeholder for readers readme
+# Manifold for Readers
+
+Content TBD.
+

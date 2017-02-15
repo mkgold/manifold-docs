@@ -1,4 +1,4 @@
-# Developer Documentation
+# Manifold for Developers
 
 Manifold is an [open source web application](https://github.com/ManifoldScholar/manifold/blob/development/LICENSE.md), covered under the the General Public License v3 \(GPL\). It is primarily written in Javascript \(ES6\) and Ruby. We encourage developers in the broader academic community to contribute and pull requests are always welcome. All Manifold related code is stored on Github, under the [ManifoldScholar Github Organization](https://github.com/ManifoldScholar). The [primary repository](https://github.com/ManifoldScholar/manifold) for the Manifold application, including the [server-side](https://github.com/ManifoldScholar/manifold/tree/development/api) and [client-side](https://github.com/ManifoldScholar/manifold/tree/development/client) components, is located at [https:\/\/github.com\/ManifoldScholar\/manifold](https://github.com/ManifoldScholar/manifold).
 
@@ -10,11 +10,7 @@ The following diagram provides a high level overview of Manifold's architecture.
 
 ![](/assets/diagram-manifold.jpg)
 
-
-
 ### Contributing
 
 To contribute to Manifold, you'll want to setup a local development environment. Read the [Installation guide](/developers/installation.md) to learn how to install Manifold in your local development environment.
-
-
 
