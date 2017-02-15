@@ -129,7 +129,7 @@ This should start the Manifold client app on port 3000. Visit [http://localhost:
 
 Depending on how you run the API, you may need to update /client/.env to point to it. There's a variable in the client environment, MANIFOLD\_API\_URL, that tells the client how where to locate the API backend. Adjust this environment variable to match your approach to running the API.
 
-<<<<<<< Updated upstream
-=======
 Depending on how you run the API, you may need to update /client/.env to point to it. There's a variable in the client environment, MANIFOLD\_API\_URL, that tells the client how where to locate the API backend. Adjust this environment variable to match your approach to running the API.
->>>>>>> Stashed changes
+
+
+
