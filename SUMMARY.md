@@ -7,5 +7,5 @@
   * [Command Line Interface](developers/command-line-interface.md)
 * [Publishers](presses/README.md)
 * [Readers](readers/README.md)
-* Authors
+* [Authors](authors.md)
 
