@@ -48,7 +48,7 @@ Note the last command, in which you copy and rename the sample .env file. In kee
 ```
 export API_DOMAIN={the domain you want to serve the API on}
 export APP_SOCKET_PATH={path to where the socket should be placed, optional}
-export API_PORT={port you want to run the API on. Defaults to 3008} 
+export API_PORT={port you want to run the API on. Defaults to 3008}
 export SECRET_KEY={your key}
 export RAILS_DB_USER={db username}
 export RAILS_DB_PASS={db password}
@@ -109,19 +109,19 @@ npm run start
 You'll see a bit of output, including this summary:
 
 ```
-🎉 MANIFOLD WEBPACK SERVER
--------------------------------------------------------------------------------
+MANIFOLD WEBPACK SERVER
+------------------------
 Manifold Asset Server, a.k.a. Webpack, is listening at http://127.0.0.1:3001
 
-🌎 MANIFOLD REST API
--------------------------------------------------------------------------------
+MANIFOLD REST API
+------------------
 The Manifold client expects to find the API at the following paths:
 
 http://manifold-api.dev:80/api
 http://manifold-api.dev:80/system
 
-📚 UNIVERSAL CLIENT SERVER
--------------------------------------------------------------------------------
+UNIVERSAL CLIENT SERVER
+------------------------
 Manifold Client is listening at http://127.0.0.1:3002
 ```
 
@@ -129,3 +129,7 @@ This should start the Manifold client app on port 3000. Visit [http://localhost:
 
 Depending on how you run the API, you may need to update /client/.env to point to it. There's a variable in the client environment, MANIFOLD\_API\_URL, that tells the client how where to locate the API backend. Adjust this environment variable to match your approach to running the API.
 
+<<<<<<< Updated upstream
+=======
+Depending on how you run the API, you may need to update /client/.env to point to it. There's a variable in the client environment, MANIFOLD\_API\_URL, that tells the client how where to locate the API backend. Adjust this environment variable to match your approach to running the API.
+>>>>>>> Stashed changes
