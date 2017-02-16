@@ -87,11 +87,11 @@ rake ingest:user_texts
 
 ### 7. Install client dependencies
 
-Navigate to the client directory and install NPM dependencies. If you don't have NPM installed, [go ahead and install it](http://blog.npmjs.org/post/85484771375/how-to-install-npm).
+Navigate to the client directory and install node module dependencies. Per usual, the node dependencies are defined in a package.json file. While you can instal these dependencies with [NPM](https://www.npmjs.com), we prefer to use [Yarn](https://yarnpkg.com/en/) because it allows for deterministic dependency resolution. Installing Yarn is outside the scope of this document, but the [Yarn installation instructions](https://yarnpkg.com/en/docs/install) are pretty straight forward
 
 ```
 cd ~/src/manifold/client
-npm install
+yarn install
 ```
 
 The initial installation of NPM packages could take a few minutes, so be patient!
@@ -101,7 +101,7 @@ The initial installation of NPM packages could take a few minutes, so be patient
 From the client directory, start the client server. There are a number of commands in the `/client/package.json` that we use for starting servers, building assets, etc. Go ahead and start the server:
 
 ```
-npm run start
+yarn start
 ```
 
 You'll see a bit of output, including this summary:
