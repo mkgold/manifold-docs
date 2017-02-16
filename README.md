@@ -1,14 +1,21 @@
-# Manifold Scholarship
+<a href="http://manifold.umn.edu/">
+    <img width="150" src="http://manifold.umn.edu/logo/manifold_avatar-01.png" alt="Manifold Scholarship" />
+</a>
 
-Manifold is an intuitive, collaborative platform for scholarly publishing. With iterative texts, powerful annotation tools, rich media support, and robust community dialogue, Manifold transforms scholarly publications into living digital works. Test
+## Build Status
 
-## Documentation Structure
+Branch       | Passing?
+------------ | -------------
+Development  | [![Build Status](https://travis-ci.org/ManifoldScholar/manifold.svg?branch=development)](https://travis-ci.org/ManifoldScholar/manifold)
+Master       |[![Build Status](https://travis-ci.org/ManifoldScholar/manifold.svg?branch=master)](https://travis-ci.org/ManifoldScholar/manifold)
 
-The Manifold documentation is organized into three primary sections, each of which targets a type of user. If you're a developer hoping to contribute to Manifold or to modify the platform, start with the "developers" documentation. Presses who are interested in adopting Manifold at their organization should start with the "presses" section. Finally, if you're a ready hoping to learn how to use Manifold, begin with the "users" documentation
+# Manifold
+Manifold is an intuitive, collaborative platform for scholarly publishing. With iterative texts, powerful annotation tools, rich media support, and robust community dialogue, Manifold transforms scholarly publications into living digital works.
 
-* [Developers](/developers/README.md)
-* [Readers](/readers/README.md)
-* [Presses](/presses/README.md)
+## About the Project
 
+The [University of Minnesota Press](https://www.upress.umn.edu) in partnership with the [GC Digital Scholarship Lab](https://gcdsl.commons.gc.cuny.edu/) at the [Graduate Center](http://www.gc.cuny.edu/Home) of the [City University of New York](http://cuny.edu) has been awarded [a $732,000 grant](https://mellon.org/grants/grants-database/grants/university-of-minnesota-at-twin-cities/11500644/) from the [Andrew W. Mellon Foundation](https://mellon.org) to launch [Manifold Scholarship](http://manifold.umn.edu). The development of Manifold is performed by [Cast Iron Coding](http://castironcoding.com), a digital development agency in Portland, Oregon.
 
+## Open Development
 
+Our ultimate goal is to build an open source tool that other university presses will use. To that end, we want to hear from our prospective users throughout the design and development process. To participate in the discussion, join us on our [Building Manifold Development Blog](http://manifold.umn.edu). As we proceed with this project, we'll be using a [Pivotal Tracker project](https://www.pivotaltracker.com/n/projects/1457560) to plan our sprints.
