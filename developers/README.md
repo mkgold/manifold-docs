@@ -1,10 +1,10 @@
 # Manifold for Developers
 
-Manifold is an [open source web application](https://github.com/ManifoldScholar/manifold/blob/development/LICENSE.md), covered under the the General Public License v3 \(GPL\). It is primarily written in Javascript \(ES6\) and Ruby. We encourage developers in the broader academic community to contribute and pull requests are always welcome. All Manifold related code is stored on Github, under the [ManifoldScholar Github Organization](https://github.com/ManifoldScholar). The [primary repository](https://github.com/ManifoldScholar/manifold) for the Manifold application, including the [server-side](https://github.com/ManifoldScholar/manifold/tree/development/api) and [client-side](https://github.com/ManifoldScholar/manifold/tree/development/client) components, is located at [https:\/\/github.com\/ManifoldScholar\/manifold](https://github.com/ManifoldScholar/manifold).
+Manifold is an [open source web application](https://github.com/ManifoldScholar/manifold/blob/development/LICENSE.md), covered under the the General Public License v3 \(GPL\). It is primarily written in Javascript \(ES6\) and Ruby. We encourage developers in the broader academic community to contribute and pull requests are always welcome. All Manifold related code is stored on Github, under the [ManifoldScholar Github Organization](https://github.com/ManifoldScholar). The [primary repository](https://github.com/ManifoldScholar/manifold) for the Manifold application, including the [server-side](https://github.com/ManifoldScholar/manifold/tree/development/api) and [client-side](https://github.com/ManifoldScholar/manifold/tree/development/client) components, is located at [https://github.com/ManifoldScholar\/manifold](https://github.com/ManifoldScholar/manifold).
 
-**Development Branch: **  
+Development Branch:   
 [![Build Status](https://travis-ci.org/ManifoldScholar/manifold.svg?branch=development)](https://travis-ci.org/ManifoldScholar/manifold)  
-**Master Branch**:   
+Master Branch:  
 [![Build Status](https://travis-ci.org/ManifoldScholar/manifold.svg?branch=master)](https://travis-ci.org/ManifoldScholar/manifold)
 
 ### Overview
