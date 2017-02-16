@@ -6,7 +6,7 @@ For Manifold to run properly, four distinct services must be running at all time
 
 The Manifold API service provides a RESTful interface to all of the underlying data stored in Manifold. The API is a Rails application running on Puma \(although it should be possible to choose a different Rack-compatible application server.
 
-In your installation, you'll need to make sure that the PATH environment variable includes any gem executables. We store the systemd configuration at `/lib/systemd/system/manifold_api.service`
+In your installation, you'll need to make sure that the PATH environment variable includes any gem executables. We store the systemd configuration at _/lib/systemd/system/manifold\_api.service_
 
 ```
 #/lib/systemd/system/manifold_api.service
@@ -30,7 +30,9 @@ SyslogIdentifier=manifold-api
 
 The client is a node-js application that's responsible for the server-side render of Manifold URLs. Remember, Manifold is a universal or isomorphic single page web application. That means that the first request hits an index.html page that loads a Javascript bundle. This single html page is updated as the user interacts with Manifold and data is requested and returned from the API. To avoid an initial white screen while the Javascript bundle is loading, and to ensure archivability and easier search engine indexing, the client application renders each page on the server-side first and returns the rendered HTML to the client on the initial request.
 
-We manage this service with the following systemd configuration, which is stored at `/lib/systemd/system/manifold_client.service`:
+We manage this service with the following systemd configuration.
+
+_/lib/systemd/system/manifold\_client.service:_
 
 ```
 #/lib/systemd/system/manifold_client.service
@@ -59,7 +61,7 @@ To improve the user experience and overall performance, Manifold runs a number o
 
 Because sidekiq is a forking process that spawns multiple workers, we have three systemd configuration files to manage it.
 
-`/lib/systemd/system/manifold_sidekiq@.service`:
+_/lib/systemd/system/manifold\_sidekiq@.service:_
 
 ```
 #/lib/systemd/system/manifold_sidekiq@.service
@@ -79,7 +81,7 @@ Restart=on-failure
 SyslogIdentifier=sidekiq-%i
 ```
 
-`/lib/systemd/system/manifold_sidekiq_workers.service`:
+_/lib/systemd/system/manifold\_sidekiq\_workers.service:_
 
 ```
 #/lib/systemd/system/manifold_sidekiq_workers.service
@@ -94,7 +96,7 @@ ExecStop=/usr/bin/manifold_sidekiq_workers stop
 KillMode=process
 ```
 
-`/lib/systemd/system/manifold_worker@.service`:
+_/lib/systemd/system/manifold\_worker@.service:_
 
 ```
 [Unit]
@@ -113,7 +115,7 @@ Restart=on-failure
 SyslogIdentifier=manifold-worker-%i
 ```
 
-`/lib/systemd/system/manifold_workers.service`:
+_/lib/systemd/system/manifold\_workers.service:_
 
 ```
 #/lib/systemd/system/manifold_workers.service
@@ -131,9 +133,9 @@ SyslogIdentifier=manifold-workers
 
 ### Scheduler
 
-The Scheduler service is responsible for creating background jobs according to a schedule. With this service, there's no need to create cron-job for background maintenance tasks and synchronizing data between Manifold and external services. The scheduler, for example, tells Manifold to check for new project tweets on an hourly basis. 
+The Scheduler service is responsible for creating background jobs according to a schedule. With this service, there's no need to create cron-job for background maintenance tasks and synchronizing data between Manifold and external services. The scheduler, for example, tells Manifold to check for new project tweets on an hourly basis.
 
-We store the systemd configuration at `/lib/systemd/system/manifold_scheduler.service`:
+We store the systemd configuration at _/lib/systemd/system/manifold\_scheduler.service:_
 
 ```
 #/lib/systemd/system/manifold_scheduler.service
@@ -155,7 +157,7 @@ SyslogIdentifier=manifold-scheduler
 
 ### Starting and Stopping Services
 
-We use sysctl to start and stop Manifold services in a systemd environment. 
+We use sysctl to start and stop Manifold services in a systemd environment.
 
 Each service can be started with the following commands:
 
