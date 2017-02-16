@@ -24,9 +24,7 @@ cd ~/src/manifold
 
 ### 2. Install top-level dependencies \(optional\)
 
-We deploy Manifold to staging and production servers using Capistrano. The global deployment configuration is stored in /config. The Gemfile in the root of the repository includes Capistrano related dependencies. If you plan on deploying with Capistrano, you'll need to install these dependencies with bundler"
-
-`bundle install`
+We deploy Manifold to staging and production servers using Capistrano. The global deployment configuration is stored in /config. The Gemfile in the root of the repository includes Capistrano related dependencies. If you plan on deploying with Capistrano, you'll need to install these dependencies with bundler: `bundle install`.
 
 ### 3. Install API dependencies
 
@@ -130,6 +128,4 @@ This should start the Manifold client app on port 3000. Visit [http://localhost:
 Depending on how you run the API, you may need to update /client/.env to point to it. There's a variable in the client environment, MANIFOLD\_API\_URL, that tells the client how where to locate the API backend. Adjust this environment variable to match your approach to running the API.
 
 Depending on how you run the API, you may need to update /client/.env to point to it. There's a variable in the client environment, MANIFOLD\_API\_URL, that tells the client how where to locate the API backend. Adjust this environment variable to match your approach to running the API.
-
-
 
