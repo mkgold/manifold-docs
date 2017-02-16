@@ -1,6 +1,6 @@
 # Installation
 
-_Nota bene_: Manifold is very much a work in progress, and the installation story will likely change as we move toward a stable release. We'll update this document durign development, in an effort to keep it fairly current, but expect things to be in flux for a while. In the future, we expect to provide Docker containers and Vagrant boxes with Manifold pre-configured, to make it easier to get up and running.
+_Nota bene_: Manifold is very much a work in progress, and the installation story will likely change as we move toward a stable release. We'll update this document during development, in an effort to keep it fairly current, but expect things to be in flux for a while. In the future, we expect to provide Docker containers and Vagrant boxes with Manifold pre-configured, to make it easier to get up and running. We also plan on providing Ubuntu packages for easy Manifold installation.
 
 ### Requirements
 
