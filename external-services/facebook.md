@@ -15,9 +15,9 @@ Before adding OAuth support for Facebook to Manifold, you will need a Manifold F
 3. Click "Get Started" on the "Facebook Login" item.
 4. In the "Valid OAuth redirect URIs" field, enter a URL in the form:
 
-  ```
-  [your-manifold-api-route]/auth/facebook/callback
-  ```
+   ```
+   [your-manifold-api-route]/auth/facebook/callback
+   ```
 
 ![Facebook Redirect Settings](/assets/facebook-redirect.png)
 
@@ -36,3 +36,6 @@ Update your .env file with the new values:
 export OAUTH_FB_ID={app id from your facebook app}
 export OAUTH_FB_SECRET={app secret from your facebook app}
 ```
+
+
+
