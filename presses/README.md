@@ -1,4 +1,6 @@
 # Manifold for Publishers
 
-Content TBD.
+* [Configuring Manifold](/presses/configuration.md)
+* 
+
 
