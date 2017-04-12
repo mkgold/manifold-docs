@@ -28,9 +28,10 @@ Before adding OAuth support for Google to Manifold, you will need a Google devel
 4. Name the credential set.
 5. In the "Authorized redirect URIs" field, add:
 
-  ```
-  [your-manifold-api-route]/auth/google_oauth2/callback
-  ```
+   ```
+   [your-manifold-api-route]/auth/google_oauth2/callback
+   ```
+
 6. Click create.
 
 ![Google Credentials](/assets/google-credentials.png)
@@ -50,3 +51,6 @@ Update your .env file with the new values:
 export OAUTH_GO_ID={app id from your google project}
 export OAUTH_GO_SECRET={app secret from your google project}
 ```
+
+
+
