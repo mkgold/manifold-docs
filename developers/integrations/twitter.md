@@ -1,6 +1,8 @@
 # Twitter OAuth Configuration
 
-Configure this feature to allow users to log in with their Twitter accounts.
+If this feature is enabled, Manifold will include a "Log in with Twitter" button on the login page. Clicking the button will open a popup that allows users to authenticate using their Twitter account. On successful authentication, Manifold will create a user record \(if it is the user's first time logging in\) and an associated identity record.
+
+These instructions document the process for acquiring OAuth keys from Twitter. It's possible that their process has changed since this was written. If that's the case, please [open a pull request](https://github.com/ManifoldScholar/manifold-docs/pulls) against our documentation with a correction.
 
 ### Requirements
 
@@ -14,19 +16,22 @@ Before adding OAuth support for Twitter to Manifold, you will need a Manifold Tw
 2. Navigate to the "Settings" tab.
 3. In the "Callback URL" field, enter a URL in the form:
 
-  ```
-  [your-manifold-api-route]/auth/twitter/callback
-  ```
+   ```
+   [your-manifold-api-route]/auth/twitter/callback
+   ```
+
 4. In the Privacy Policy field, add:
 
-  ```
-  this-doesnt.exist/yet
-  ```
+   ```
+   this-doesnt.exist/yet
+   ```
+
 5. In the Terms of Service field, add:
 
-  ```
-  this-doesnt.exist/yet
-  ```
+   ```
+   this-doesnt.exist/yet
+   ```
+
 6. Save the settings.
 
 ![Twitter URLs](/assets/twitter-urls.png)
@@ -42,7 +47,7 @@ Before adding OAuth support for Twitter to Manifold, you will need a Manifold Tw
 ### Get App ID and Secret ID
 
 1. Navigate to the "Keys and Access Tokens" tab.
-2. Copy the values under "Consumer Key (API Key)" and "Consumer Secret (API Secret)".
+2. Copy the values under "Consumer Key \(API Key\)" and "Consumer Secret \(API Secret\)".
 
 ![Twitter Settings](/assets/twitter-settings.png)
 
@@ -54,3 +59,6 @@ Update your .env file with the new values:
 export OAUTH_TW_ID={api key from your twitter app}
 export OAUTH_TW_SECRET={api secret from your twitter app}
 ```
+
+
+

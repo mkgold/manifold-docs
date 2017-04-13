@@ -1,6 +1,8 @@
 # Google OAuth Configuration
 
-Configure this feature to allow users to log in with their Gmail accounts.
+If this feature is enabled, Manifold will include a "Log in with Google" button on the login page. Clicking the button will open a popup that allows users to authenticate using their Google account. On successful authentication, Manifold will create a user record \(if it is the user's first time logging in\) and an associated identity record.
+
+These instructions document the process for acquiring OAuth keys from Google. It's possible that their process has changed since this was written. If that's the case, please [open a pull request](https://github.com/ManifoldScholar/manifold-docs/pulls) against our documentation with a correction.
 
 ### Requirements
 
