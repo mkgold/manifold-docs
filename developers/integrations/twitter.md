@@ -18,24 +18,9 @@ The Manifold API handles OAuth callbacks. For Twitter, the callback route is loc
 
 1. Log into your account and app at [Twitter Apps](https://apps.twitter.com).
 2. Navigate to the "Settings" tab.
-3. In the "Callback URL" field, enter a URL in the form:
-
-   ```
-   [your-manifold-api-route]/auth/twitter/callback
-   ```
-
-4. In the Privacy Policy field, add:
-
-   ```
-   this-doesnt.exist/yet
-   ```
-
-5. In the Terms of Service field, add:
-
-   ```
-   this-doesnt.exist/yet
-   ```
-
+3. In the "Callback URL" field, enter the callback URL, defined above.
+4. In the Privacy Policy field, add a link to your privacy policy. This is a required field.
+5. In the Terms of Service field, add a link to your terms of service. This is a required field.
 6. Save the settings.
 
 ![Twitter URLs](/assets/twitter-urls.png)
@@ -55,14 +40,20 @@ The Manifold API handles OAuth callbacks. For Twitter, the callback route is loc
 
 ![Twitter Settings](/assets/twitter-settings.png)
 
-### Add keys to .env file
+### Update Manifold Settings
 
-Update your .env file with the new values:
+In the Manifold backend, navigate to the "settings" menu item. Under the "integration" tab enter the Consumer Key into the field labeled "Twitter Consumer Key." Enter the Consumer secret into the field labeled "Twitter Consumer Secret." 
+
+If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
 ```
-export OAUTH_TW_ID={api key from your twitter app}
-export OAUTH_TW_SECRET={api secret from your twitter app}
+# Google OAuth Integration
+MANIFOLD_SETTING_INTEGRATIONS_TWITTER_APP_ID=
+MANIFOLD_SETTING_SECRETS_TWITTER_APP_SECRET=
 ```
+
+
+
 
 
 

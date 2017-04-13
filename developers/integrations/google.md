@@ -47,7 +47,7 @@ The Manifold API handles OAuth callbacks. For Google, the callback route is loca
 
 ### Update Manifold Settings
 
-In the Manifold backend, navigate to the "settings" menu item. Under the "integration" tab, in the section labelled "Google OAuth Configuration," enter the Client ID into the field labeled "Google Client ID." Enter the Client Secret value until the field labeled "Google Client Secret." 
+In the Manifold backend, navigate to the "settings" menu item. Under the "integration" tab, in the section labelled "Google OAuth Configuration," enter the Client ID into the field labeled "Google Client ID." Enter the Client Secret value into the field labeled "Google Client Secret." 
 
 If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
