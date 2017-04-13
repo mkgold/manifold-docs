@@ -4,6 +4,8 @@
 * [Authors](/authors/README.md)
 * [Developers](/developers/README.md)
   * [Installation](/developers/installation.md)
+    * [Development Environment](/developers/installation/development.md)
+    * [Production Environment](/developers/installation/production.md)
   * [Configuration](/developers/configuration.md)
   * [Integrations](/developers/integrations/README.md)
   * [Command Line Interface](/developers/command-line-interface.md)
