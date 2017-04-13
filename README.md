@@ -14,3 +14,6 @@ Our ultimate goal is to build an open source tool that other university presses 
 
 Manifold's source code is [hosted on Github](https://github.com/manifoldscholar/manifold). Early adopters of Manifold are encouraged to download the source code, experiment, and submit fixes and features in the form of pull requests.
 
+### Contribute Documentation
+
+If you have revisions or improvements you'd like to contribute to our documentation, please open an issue or submit a pull request at [our documentation repository](https://github.com/ManifoldScholar/manifold-docs).
