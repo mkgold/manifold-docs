@@ -11,6 +11,10 @@ Before adding OAuth support for Google to Manifold, you will need a Google devel
 * If you do not have a developer account you can create one at through the [Google Developer Console](https://console.developers.google.com/).
 * If you do not have a Manifold Google project you can create one by logging into your developer account and clicking "Create Project".
 
+### Callback URL
+
+The Manifold API handles OAuth callbacks. For Google, the callback route is located at `/auth/google/callback`. For your installation of Manifold, the callback URL will be the fully qualified domain name \(FQDN\) of the API server followed by that path. For example, my Manifold API is on the same domain as the client application, and that domain is `manifoldapp.org`, the callback URL would be `http://manifoldapp.org/auth/google/callback`. 
+
 ### Setup consent screen
 
 1. Log into your account and app at [Google Developer Console](https://console.developers.google.com/).

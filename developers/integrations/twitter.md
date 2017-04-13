@@ -10,6 +10,10 @@ Before adding OAuth support for Twitter to Manifold, you will need a Manifold Tw
 
 * If you do not have one, create a Twitter app through the [Twitter App Interface](https://apps.twitter.com).
 
+### Callback URL
+
+The Manifold API handles OAuth callbacks. For Twitter, the callback route is located at `/auth/twitter/callback`. For your installation of Manifold, the callback URL will be the fully qualified domain name \(FQDN\) of the API server followed by that path. For example, my Manifold API is on the same domain as the client application, and that domain is `manifoldapp.org`, the callback URL would be `http://manifoldapp.org/auth/twitter/callback`.
+
 ### Setup required URLs
 
 1. Log into your account and app at [Twitter Apps](https://apps.twitter.com).
