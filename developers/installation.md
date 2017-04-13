@@ -1,6 +1,6 @@
 # Installation
 
-_Nota bene_: Manifold is very much a work in progress, and the installation story will likely change as we move toward a stable release. We'll update this document during development, in an effort to keep it fairly current, but expect things to be in flux for a while. In the future, we expect to provide Docker containers and Vagrant boxes with Manifold pre-configured, to make it easier to get up and running. We also plan on providing Ubuntu packages for easy Manifold installation.
+_Nota bene_: Manifold is very much a work in progress, and the installation story will likely change as we move toward a stable release. We'll update this document during development, in an effort to keep it fairly current, but expect things to be in flux for a while. In the future, we expect to provide Docker containers and OSX installers to make it easier to get up and running. We also plan on providing Ubuntu apt packages for easy Manifold installation.
 
 ### Requirements
 
@@ -11,6 +11,12 @@ You will also need a functioning installation of Postgres 9.5. There are a few s
 Manifold search relies on ElasticSearch, which in turn relies on Java. On our development, staging, and production hosts, we are running ElasticSearch 5.1.x and Java 8. As with other dependencies, we've had good luck installing ElasticSearch with Homebrew on our development machines.
 
 Finally, you'll want to have Redis installed for processing background jobs. Again, we've had good luck installing it with Homebrew: `brew install redis`
+
+
+
+
+
+
 
 ### 1. Clone the repository
 

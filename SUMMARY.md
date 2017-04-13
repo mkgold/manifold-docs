@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Developers](developers/README.md)
   * [Installation](developers/installation.md)
+    * [Development Installation](developers/installation/development-installation.md)
   * [Services](developers/services.md)
   * [Command Line Interface](developers/command-line-interface.md)
 * [External Services](external-services/README.md)
