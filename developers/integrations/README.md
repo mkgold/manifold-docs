@@ -1,6 +1,11 @@
 # Configuring External Services
 
-_Manifold documentation is very much a work in progress. This page is a placeholder for content we're planning on writing. Thank you for your patience, and for bearing with us as we develop this platform!_
+Manifold integrates with a number of external services, including Google, Twitter, and Facebook, for 3rd party authentication and for social sharing functionality.
+
+* [Google Authentication](/developers/integrations/google.md)
+* [Twitter Authentication](/developers/integrations/twitter.md)
+* [Facebook Authentication](/developers/integrations/facebook.md)
+* [Google Analytics Integration ](/developers/integrations/google-analytics.md)
 
 
 

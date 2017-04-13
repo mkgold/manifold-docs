@@ -4,7 +4,7 @@
 * [Authors](/authors/README.md)
 * [Developers](/developers/README.md)
   * [Installation](/developers/installation.md)
-  * [Configuration](/presses/configuration.md)
+  * [Configuration](/developers/configuration.md)
   * [Integrations](/developers/integrations/README.md)
   * [Command Line Interface](/developers/command-line-interface.md)
   * [Services](/developers/services.md)
