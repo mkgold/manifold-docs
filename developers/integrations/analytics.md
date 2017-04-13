@@ -42,31 +42,39 @@ Before adding Google Analytics support to Manifold, you will need a Google devel
 ### Configure analytics
 
 1. Log into your property at [Google Analytics](https://analytics.google.com).
-2. Create a new property for your Manifold installation.
-  * If you need help, instructions can be found at [Analytics Help](https://support.google.com/analytics/answer/1008015?hl=en).
+2. Create a new property for your Manifold installation. If you need help, instructions can be found at [Analytics Help](https://support.google.com/analytics/answer/1008015?hl=en).
 3. Click on the "Admin" tab in the sidebar.
 4. Click on "User Management" under your property's name.
 5. Add "Read & Anaylze" permissions for your service account.
+
 ![Analytics Permissions](/assets/analytics-permissions.png)
 
 ### Get Tracking ID and profile ID
 
 1. Click on "Property Settings" under your property's name.
 2. Make note of the Tracking Id including the "UA-" prefix.
-![Analytics Tracking](/assets/analytics-tracking.png)
 3. Click on "View Settings" under "All Web Site Data".
 4. Make note of the View Id.
+
+![Analytics Tracking](/assets/analytics-tracking.png)
+
 ![Analytics Profile](/assets/analytics-profile.png)
 
-### Add keys to .env file
+### Update Manifold Settings
 
-Update your .env file with the new values:
+In the Manifold backend, navigate to the "settings" menu item. Under the "integration" tab, enter the values above into the corresponding fields.
+
+If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
 ```
-export GOOGLE_SERVICE_PROJECT_ID={project ID from your Google project}
-export GOOGLE_SERVICE_PRIVATE_KEY_ID={key ID of your Google service account}
-export GOOGLE_SERVICE_PRIVATE_KEY={contents of your service account JSON key file}
-export GOOGLE_CLIENT_EMAIL={service account ID of your Google service account}
-export MANIFOLD_SETTING_GENERAL_GA_TRACKING_ID={tracking ID of your Google analytics property}
-export MANIFOLD_SETTING_GENERAL_GA_PROFILE_ID={"ga:[profile ID of your Google analytics account]"}
+# Google Drive Integration
+MANIFOLD_SETTING_INTEGRATIONS_GOOGLE_CLIENT_ID=
+MANIFOLD_SETTING_INTEGRATIONS_GOOGLE_PROJECT_ID=
+MANIFOLD_SETTING_INTEGRATIONS_GOOGLE_PRIVATE_KEY_ID=
+MANIFOLD_SETTING_SECRETS_GOOGLE_PRIVATE_KEY=
+MANIFOLD_SETTING_INTEGRATIONS_GOOGLE_CLIENT_EMAIL=
+
+# Google Analytics Integration
+MANIFOLD_SETTING_INTEGRATIONS_GA_TRACKING_ID=
+MANIFOLD_SETTING_INTEGRATIONS_GA_PROFILE_ID=
 ```
