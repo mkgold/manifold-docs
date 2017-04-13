@@ -12,14 +12,14 @@ Before adding OAuth support for Facebook to Manifold, you will need a Facebook a
 
 ### Callback URL
 
-The Manifold API handles OAuth callbacks. For Facebook, the callback route is located at `/auth/facebook/callback`. For your installation of Manifold, the callback URL will be the fully qualified domain name \(FQDN\) of the API server followed by that path. For example, my Manifold API is on the same domain as the client application, and that domain is `manifoldapp.org`, the callback URL would be `http://manifoldapp.org/auth/facebook/callback`. 
+The Manifold API handles OAuth callbacks. For Facebook, the callback route is located at `/auth/facebook/callback`. For your installation of Manifold, the callback URL will be the fully qualified domain name \(FQDN\) of the API server followed by that path. For example, my Manifold API is on the same domain as the client application, and that domain is `manifoldapp.org`, the callback URL would be `http://manifoldapp.org/auth/facebook/callback`.
 
 ### Setup redirect URL
 
 1. Log into your account and app at [Facebook Developers](https://developers.facebook.com).
 2. Under the "Products" header in the sidebar, add a new product.
 3. Click "Get Started" on the "Facebook Login" item.
-4. In the "Valid OAuth redirect URIs" field, enter a URL in the form of
+4. In the "Valid OAuth redirect URIs" field, enter the callback URL, described above.
 
 ![Facebook Redirect Settings](/assets/facebook-redirect.png)
 
@@ -30,13 +30,16 @@ The Manifold API handles OAuth callbacks. For Facebook, the callback route is lo
 
 ![Facebook Dashboard](/assets/developer-dashboard.png)
 
-### Add keys to .env file
+### Update Manifold Settings
 
-Update your .env file with the new values:
+In the Manifold backend, navigate to the "settings" menu item. Under the "integration" tab, enter the App ID into the field labeled "Facebook App ID." Enter the App Secret value until the field labeled "Facebook App Secret." 
+
+If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
 ```
-export OAUTH_FB_ID={app id from your facebook app}
-export OAUTH_FB_SECRET={app secret from your facebook app}
+# Facebook OAuth Integration
+MANIFOLD_SETTING_INTEGRATIONS_FACEBOOK_APP_ID=
+MANIFOLD_SETTING_SECRETS_FACEBOOK_APP_SECRET=
 ```
 
 
