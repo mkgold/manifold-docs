@@ -16,7 +16,7 @@ Finally, you'll want to have Redis installed for processing background jobs. Aga
 
 * [Setting up your Manifold Development Environment](/developers/installation/development.md)
 * [Installing Manifold for Production](/developers/installation/production.md)
-* [Theme](/developers/theme.md)
+
 
 
 
