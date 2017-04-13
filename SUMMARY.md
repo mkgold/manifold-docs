@@ -1,14 +1,17 @@
 # Summary
 
 * [Introduction](README.md)
-* [Developers](developers/README.md)
-  * [Installation](developers/installation.md)
-    * [development](/developers/installation/development.md)
-    * [production](/developers/installation/production.md)
-  * [Services](developers/services.md)
-  * [Command Line Interface](developers/command-line-interface.md)
-* [Publishers](presses/README.md)
-  * [Configuration](presses/configuration.md)
-* [Readers](readers/README.md)
-* [Authors](authors.md)
+* [Authors](/authors/README.md)
+* [Developers](/developers/README.md)
+  * [Installation](/developers/installation.md)
+  * [Configuration](/presses/configuration.md)
+  * [Integrations](/developers/integrations/README.md)
+  * [Command Line Interface](/developers/command-line-interface.md)
+  * [Services](/developers/services.md)
+  * [Theme](/developers/theme.md)
+  * [Structure](/developers/structure.md)
+* [Presses](/presses/README.md)
+* [Readers](/readers/README.md)
+
+
 
