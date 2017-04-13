@@ -26,13 +26,16 @@ The Manifold API handles OAuth callbacks. For Google, the callback route is loca
 
 ![Google Consent](/assets/google-consent.png)
 
+
 ### Create OAuth credentials
 
 1. Click on the "Credentials" tab.
 2. Click the button to "Create credentials" and select "OAuth client ID".
 3. Select "Web application" for the "Application type".
 4. Name the credential set.
-5. 
+5. In the "Authorized redirect URIs" field, enter the callback url, defined above.
+6. Click create.
+
 ![Google Credentials](/assets/google-credentials.png)
 
 ### Get App ID and Secret ID
@@ -42,14 +45,18 @@ The Manifold API handles OAuth callbacks. For Google, the callback route is loca
 
 ![Google Keys](/assets/google-keys.png)
 
-### Add keys to .env file
+### Update Manifold Settings
 
-Update your .env file with the new values:
+In the Manifold backend, navigate to the "settings" menu item. Under the "integration" tab, in the section labelled "Google OAuth Configuration," enter the Client ID into the field labeled "Google Client ID." Enter the Client Secret value until the field labeled "Google Client Secret." 
+
+If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
 ```
-export OAUTH_GO_ID={app id from your google project}
-export OAUTH_GO_SECRET={app secret from your google project}
+# Google OAuth Integration
+MANIFOLD_SETTING_INTEGRATIONS_GOOGLE_OAUTH_CLIENT_ID=
+MANIFOLD_SETTING_SECRETS_GOOGLE_OAUTH_CLIENT_SECRET=
 ```
+
 
 
 
