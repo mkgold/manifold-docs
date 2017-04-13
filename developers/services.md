@@ -1,6 +1,6 @@
 # Services
 
-For Manifold to run properly, four distinct services must be running at all times on the host. This section includes a brief description of each service and a sample systemd startup script. We've found Ubuntu 16 to be a reliable host environment for Manifold, and we use the systemd scripts below to manage each service. The paths in the systemd service snippets below assume a typical Capistrano deployment to /home/manifold/deploy. If you take a different approach to deployment, you may need to change the paths.
+For Manifold to run properly, a number of distinct services must be running at all times on the host. This section includes a brief description of each service and a sample systemd startup script. We've found Ubuntu 16 to be a reliable host environment for Manifold, and we use the systemd scripts below to manage each service. The paths in the systemd service snippets below assume a typical Capistrano deployment to /home/manifold/deploy. If you take a different approach to deployment, you may need to change the paths.
 
 ### API
 
@@ -155,6 +155,31 @@ Restart=always
 SyslogIdentifier=manifold-scheduler
 ```
 
+### Cable
+
+The cable service is a WebSocket service. When texts are ingested into Manifold through the backend, the API provides real-time feedback to the client application about the ingestion process. This takes place over the Cable WebSocket channel.
+
+We store the systemd configuration at _/lib/systemd/system/manifold\_cable.service:_
+
+```
+#/lib/systemd/system/manifold_cable.service
+[Unit]
+Description=Manifold Action Cable Server
+After=network.target
+
+[Service]
+Type=simple
+User=manifold
+Group=manifold
+Environment=PATH=/home/manifold/.rbenv/shims:/bin:/sbin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/local/node/node-default/bin
+EnvironmentFile=/home/manifold/deploy/shared/.env
+WorkingDirectory=/home/manifold/deploy/current/api/
+ExecStart=/home/manifold/deploy/current/api/bin/cable
+
+Restart=always
+SyslogIdentifier=manifold-cable
+```
+
 ### Starting and Stopping Services
 
 We use sysctl to start and stop Manifold services in a systemd environment.
@@ -166,6 +191,7 @@ sudo systemctl start manifold_client
 sudo systemctl start manifold_api
 sudo systemctl start manifold_scheduler
 sudo systemctl start manifold_workers
+sudo systemctl start manifold_workers
 ```
 
 Each service can be stopped with the following commands:
@@ -175,6 +201,7 @@ sudo systemctl stop manifold_client
 sudo systemctl stop manifold_api
 sudo systemctl stop manifold_scheduler
 sudo systemctl stop manifold_workers
+sudo systemctl stop manifold_cable
 ```
 
 Each service can be restarted with the following commands:
@@ -184,6 +211,7 @@ sudo systemctl restart manifold_client
 sudo systemctl restart manifold_api
 sudo systemctl restart manifold_scheduler
 sudo systemctl restart manifold_workers
+sudo systemctl restart manifold_cable
 ```
 
 ### Logging and Troubleshooting
