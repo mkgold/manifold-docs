@@ -1,6 +1,6 @@
 # Google Analytics Configuration
 
-Configure this feature to enable analytics reporting to your Google account.
+Configure this feature to enable analytics reporting to your Google account, and to display analytics data in the Manifold backend.
 
 ### Requirements
 
@@ -13,14 +13,14 @@ Before adding Google Analytics support to Manifold, you will need a Google devel
 
 1. Log into your project at [Google Cloud Platform](https://console.cloud.google.com).
 2. Make note of the Project ID after the "#" in the "Project Info" card.
+
 ![Analytics Project](/assets/analytics-project.png)
 
 ### Enable analytics
 
 1. Click on the "API Manager" tab in the sidebar.
 2. Click on the "Library" tab in the sidebar.
-3. Click on "Analytics API" under the "Other popular APIs" header.
-  * You may need to search for "Analytics API" if you don't see it.
+3. Click on "Analytics API" under the "Other popular APIs" header. (You may need to search for "Analytics API" if you don't see it.
 4. Click "Enable".
 
 ### Get service account credentials
@@ -30,11 +30,13 @@ Before adding Google Analytics support to Manifold, you will need a Google devel
 3. Select "New service account" from the dropdown.
 4. Give your service account a name.
 6. Create the credential set.
-![Analytics New Service](/assets/analytics-new.png)
 7. Download and locate the JSON file.
 8. Put the JSON file into your app's root directory.
 9. Click on "Manage service accounts".
 10. Make note of the Service account ID and Key ID.
+
+![Analytics New Service](/assets/analytics-new.png)
+
 ![Analytics Service](/assets/analytics-service.png)
 
 ### Configure analytics
