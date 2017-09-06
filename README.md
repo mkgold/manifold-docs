@@ -8,7 +8,7 @@ If you find yourself unclear about the process, what is expected of you, or if y
 
 ### Getting Started
 
-Manifold is an open source web application. If you are interested in hosting your own instance of Manifold, begin with the [Getting Started](/contents/getting_started/README.md) page, below, where you'll find instructions on how to install Manifold. If you would prefer not to manage your own instance of Manifold, [the University of Minnesota Press](https://www.upress.umn.edu/) offers digital services covering project preparation, hosting, customization and support in partnership with [Cast Iron Coding](http://castironcoding.com)
+Manifold is an open source web application. If you are interested in hosting your own instance of Manifold, begin with the [Getting Started](/contents/getting_started/README.md) page, below, where you'll find instructions on how to install Manifold. If you would prefer not to manage your own instance of Manifold, [the University of Minnesota Press](https://www.upress.umn.edu/) offers [digital services](/contents/getting_started/installation/digital-services.md) covering project preparation, hosting, customization and support in partnership with [Cast Iron Coding](http://castironcoding.com)
 
 * [Terminology](contents/reference/terminology.md)
 * [Getting Started](contents/getting_started/README.md)
