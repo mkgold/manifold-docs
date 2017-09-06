@@ -1,10 +1,12 @@
 # Summary
 
+* [Introduction](README.md)
 * [Terminology](contents/reference/terminology.md)
 * [Getting Started](contents/getting_started/README.md)
   * [Installation](contents/getting_started/installation/README.md)
     * [From Source](contents/getting_started/installation/from_source.md)
     * [From Package](contents/getting_started/installation/from_package.md)
+  * [Getting Help](contents/developers/getting_help.md)
 * [Presses](contents/presses/README.md)
   * [Editorial & Production Workflow](contents/presses/editorial_and_production_workflow.md)
   * [The Backend](contents/presses/the_backend/README.md)
@@ -44,11 +46,8 @@
   * [Directory Structure](contents/developers/directory_structure.md)
   * [Command Line Interface](contents/developers/command_line_interface.md)
   * [API](contents/developers/api.md)
-  * [Getting Help](contents/developers/getting_help.md)
 * [Reference](contents/reference/README.md)
   * [User Accounts](contents/reference/user_accounts.md)
   * [Metadata](contents/reference/metadata.md)
   * [Glossary](contents/reference/glossary.md)
-
-
 
