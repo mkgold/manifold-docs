@@ -34,16 +34,18 @@ TKTKTK
 <!-- The edition of the project that is produced as a book in both physical and electronic mediums. -->
 
 #### Resources
-Ancillary media that enhance Texts and can be either static or dynamic. Resources are placed onto Texts in the reader in a way analogous to the placing of a footnote: a marker is created at a specific location in the text that calls the reader's attention to media that can be previewed in the margins. Manifold is designed to allow for as many different media types as possible, from figures, tables, audio, video, to presentations, downloadable apps, and network visualizations. For details about the different kinds file formats and preferred specifications for resources that are available to the system, please see the Resources section.
+Ancillary media that enhance Texts and can be either static or dynamic. Resources are placed onto Texts in the reader in a way analogous to the placing of a footnote: a marker is created at a specific location in the text that calls the reader's attention to media that can be previewed in the margins. Manifold is designed to allow for as many different media types as possible, from figures, tables, audio, video, to presentations, downloadable apps, and network visualizations. For details about the different kinds file formats and preferred specifications for resources that are available to the system, please see the [Resources](/contents/readers/resources.md) section.
 
-## Rights
+#### Rights
+TKTKTK
 <!-- Administrative and author rights. Others? -->
 
-## Samples
+#### Samples
+TKTKTK
 <!-- Revised and ready for submission for the VOR process. This may be wholly unnecessary. -->
 
-## Texts
+#### Texts
 Static, prose-driven materials that have been processed into the Manifold Reader and which could be replicated exactly in print as they appear on the screen. Generally, though not necessarily, Texts can be thought of as author-original content: field notes; draft or sample chapters; blog posts; ruminations and explorations of topics related to the project; or final, copyedited manuscripts. Texts are expected to have any figures and tables that are crucial to the discussion embedded within them.
 
-## Version of Record (VOR)
+#### Version of Record (VOR)
 Synonymous with “release version” and “published,” the VOR is the distilled expression of your scholarly work and which has undergone your publisher's standard editorial and production processes. Resources can be applied to the VOR, but they are not an intrinsic element of it.
