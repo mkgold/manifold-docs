@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [About](contents/reference/about.md)
 * [Terminology](contents/reference/terminology.md)
 * [Getting Started](contents/getting_started/README.md)
   * [Installation](contents/getting_started/installation/README.md)
