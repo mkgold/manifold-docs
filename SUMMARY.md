@@ -7,7 +7,7 @@
     * [From Source](contents/getting_started/installation/from_source.md)
     * [From Package](contents/getting_started/installation/from_package.md)
   * [Getting Help](contents/developers/getting_help.md)
-  * Digital Services
+  * [Digital Services](contents/getting_started/installation/digital-services.md)
 * [Presses](contents/presses/README.md)
   * [Editorial & Production Workflow](contents/presses/editorial_and_production_workflow.md)
   * [The Backend](contents/presses/the_backend/README.md)
