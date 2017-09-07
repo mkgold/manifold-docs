@@ -35,7 +35,7 @@
 * [Authors](contents/authors/README.md)
   * [Project Proposals](contents/authors/project_proposals.md)
   * [Rights](contents/authors/rights.md)
-  * [Writing for the Web](contents/authors/writing_for_the_web.md)
+  * [Writing for the Web](contents/authors/writing\_for\_the_web.md)
   * [Resources](contents/authors/resources.md)
   * [Copyright and Permissions](contents/authors/copyright_and_permissions.md)
 * [Readers](contents/readers/README.md)
