@@ -12,7 +12,7 @@
 * [Presses](contents/presses/README.md)
   * [Project Types](contents/presses/project_types.md)
   * [Proposals](contents/presses/proposals.md)
-  * [Editorial & Production Workflow](contents/presses/editorial_and_production_workflow.md)
+  * [Editorial & Production Workflow](contents/presses/editorial\_and\_production\_workflow.md)
   * [The Backend](contents/presses/the_backend/README.md)
     * [Projects](contents/presses/the_backend/projects/README.md)
       * [General](contents/presses/the_backend/projects/general.md)
