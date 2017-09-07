@@ -6,8 +6,6 @@ In this scenario the production workflow is largely unchanged from your existing
 
 ![Open-access workflow](/assets/oa-workflow.jpg)
 
-
-
 ## Enhanced
 As with the Open-Access model, the production process remains mostly unchanged from your existing procedures. In addition to loading a Text, you will also upload Resource files that augment and enhance the Text. This will involve a staff member reviewing the quality and usability of the materials as well as evaluating them for any permission concerns. Metadata input for Resources can be modest, though the platform does allow for a robust collection of information, depending on your needs and expectations. The placement of Resources in the Text(s) or in curated collections can be accomplished either by the author or in-house staff.
 
