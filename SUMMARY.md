@@ -8,7 +8,7 @@
     * [From Source](contents/getting_started/installation/from_source.md)
     * [From Package](contents/getting_started/installation/from_package.md)
   * [Getting Help](contents/developers/getting_help.md)
-  * [Digital Services](contents/getting_started/installation/digital-services.md)
+  * [Digital Services](contents/getting_started/digital-services.md)
 * [Presses](contents/presses/README.md)
   * [Project Types](contents/presses/project_types.md)
   * [Proposals](contents/presses/proposals.md)
