@@ -25,7 +25,7 @@
       * [Activity](contents/presses/the_backend/projects/activity.md)
       * [Metadata](contents/presses/the_backend/projects/metadata.md)
     * [People](contents/presses/the_backend/people/README.md)
-      * [Users](contents/presses/the_backend/people/USERS.md)
+      * [Users](contents/presses/the_backend/people/users.md)
       * [Makers](contents/presses/the_backend/people/makers.md)
     * [Settings](contents/presses/the_backend/settings/README.md)
       * [General](contents/presses/the_backend/settings/general.md)
