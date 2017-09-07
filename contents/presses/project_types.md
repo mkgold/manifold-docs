@@ -1,4 +1,4 @@
-## Project Types
+# Project Types
 
 Manifold is engineered to be very accommodating of the needs of different kinds of publications and the varied standards and expectations of different publishers. Broadly, though, there are three different project types available through the system:
 
