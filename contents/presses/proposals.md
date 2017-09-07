@@ -1,6 +1,6 @@
 # Project Proposals
 
-This section describes the proposal requirements for projects that are utilizing [Manifold's Iterative conception](core.md). Projects following the Open-Access or Enhanced paths will track with your publisher's standard production process.
+This section describes the proposal requirements for projects that are utilizing [Manifold's Iterative conception](/contents/reference/glossary.md). Projects following the Open-Access or Enhanced paths will track with your publisher's standard production process.
 
 Iterative projects will enjoy two distinct workflows—(1) the iterative, elemental stage, and (2) your publisher's standard production process—one at each end of the same spectrum. The iterative phase aligns with your project's developmental stage, which normally occurs beyond the view of the reader or publisher, and the standard phase aligns with the processes your publisher currently employs in the creation of their final, polished electronic or print works. There are no expectations that your early iterations be polished. While some editorial discretion will be employed, this part of the project is experimental and contextual: it revels in the messiness and potential of creation.
 
@@ -34,7 +34,7 @@ Iterative projects under consideration will benefit from the same levels of edit
 *   submitting materials according to publisher expectations
 *   Placing and curating Resources through system interfaces
 
-_Note_. Compare these responsibilities with those of the publisher's, as found in the [Editorial and Production Workflow](workflow.md) section.
+_Note_. Compare these responsibilities with those of the publisher's, as found in the [Editorial and Production Workflow](/contents/presses/editorial_and_production_workflow.md) section.
 
 ## Next Steps
-*   Begin readying your materials for Manifold with information speaking to both the [structure](web-writing.md) and [technical specifications](resources.md) for your materials, along with considerations for [reproducing materials from other sources](rights.md).
+*   Begin readying your materials for Manifold with information speaking to both the [structure](/contents/authors/writing_for_the_web.md) and [technical specifications](/contents/presses/the_backend/projects/resources/README.md) for your materials, along with considerations for [reproducing materials from other sources](rights.md).
