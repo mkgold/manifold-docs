@@ -9,12 +9,12 @@ In this scenario the production workflow is largely unchanged from your existing
 ## Enhanced
 As with the Open-Access model, the production process remains mostly unchanged from your existing procedures. In addition to loading a Text, you will also upload Resource files that augment and enhance the Text. This will involve a staff member reviewing the quality and usability of the materials as well as evaluating them for any permission concerns. Metadata input for Resources can be modest, though the platform does allow for a robust collection of information, depending on your needs and expectations. The placement of Resources in the Text(s) or in curated collections can be accomplished either by the author or in-house staff.
 
-![Enhanced workflow](assets/enhanced-workflow.jpg)
+![Enhanced workflow](/assets/enhanced-workflow.jpg)
 
 ## Iterative
 The iterative process precedes and stands apart from the standard production workflow. After an agreement on the nature of the project and the kinds of materials it will comprise is brokered with the author, the author can begin supplying Texts and Resources to you for vetting and loading into the system, which both parties can then curate.
 
-![Enhanced workflow](assets/iterative-workflow.jpg)
+![Enhanced workflow](/assets/iterative-workflow.jpg)
 
 ### Responsibilities
 *   Vetting and editing materials to house standards and expectations
@@ -37,7 +37,7 @@ The iterative process precedes and stands apart from the standard production wor
 ## Text Ingestion
 Manifold can ingest Texts in various formats. The preferred method is by way of EPUB, but Markdown, HTML, and Google Documents are also viable means. The diagram shown here describe the various paths for getting your Texts into Manifold from your existing procedures.
 
-![Text paths into Manifold](assets/text-paths.jpg)
+![Text paths into Manifold](/assets/text-paths.jpg)
 
 *Note*. If your Text is a Microsoft Word Document (or a series of them), you'll need to first transform them from Word to an accepted format, via one of the suggested paths here, before uploading them into the system.
 
