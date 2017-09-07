@@ -1,3 +1,3 @@
-# Getting Started: Installation
+# Installation
 
 TKTKTK
