@@ -1,8 +1,8 @@
 # Copyright and Permissions
 ## Introduction
-It is the author’s responsibility to obtain permission for the use of material (text or illustrations) copyrighted by others. Because obtaining permission often takes several weeks or months, we urge you to send out permission requests as early as possible. Keep records of all correspondence. If you are unable to contact the rights holder of a particular piece of copyrighted material for permission to reprint, consult with your publisher regarding the best course of action. **All** permissions should accompany the materials they pertain to when submitted to your publisher.
+It is the author’s responsibility to obtain permission for the use of material copyrighted by others. Because obtaining permission often takes several weeks or months, we urge you to send out permission requests as early as possible. Keep records of all correspondence. If you are unable to contact the rights holder of a particular piece of copyrighted material for permission to reprint, consult with your publisher regarding the best course of action. **All** permissions should accompany the materials they are associated with when submitted to your publisher.
 
-All materials you or your co-authors did not personally create will need to be accounted for on the [permission log](permission-log.md/). Even those that are in the public domain should appear here to for a complete record of the project's assets.
+All materials you or your co-authors did not personally create will need to be accounted for on the [permission log](permission-log.md/). Even those that are in the public domain should appear here to form a complete record of the project's assets.
 
 All items not your own need to be documented. Permission will be necessary for all items not presently in the public domain (see more here). Fair use rulings will be made by the press.
 

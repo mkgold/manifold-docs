@@ -37,7 +37,7 @@
       * [Email](contents/presses/the_backend/settings/email.md)
 * [Authors](contents/authors/README.md)
   * [Project Proposals](contents/authors/project_proposals.md)
-  * [Rights](contents/authors/rights.md)
+  * [Copyright and Permissions](contents/authors/rights.md)
   * [Writing for the Web](contents/authors/writing_for_the_web.md)
   * [Resources](contents/authors/resources.md)
 * [Readers](contents/readers/README.md)
@@ -60,4 +60,3 @@
   * [User Accounts](contents/reference/user_accounts.md)
   * [Metadata](contents/reference/metadata.md)
   * [Glossary](contents/reference/glossary.md)
-
