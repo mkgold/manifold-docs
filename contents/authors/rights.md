@@ -3,19 +3,19 @@
 It is the author’s responsibility to obtain permission for the use of material copyrighted by others. Because obtaining permission often takes several weeks or months, we urge you to send out permission requests as early as possible. Keep records of all correspondence. If you are unable to contact the rights holder of a particular piece of copyrighted material for permission to reprint, consult with your publisher regarding the best course of action. **All** permissions should accompany the materials they are associated with when submitted to your publisher.
 
 ## Ethical Concerns
-Reproducing thoughts and materials from any community involves more than just legal precedent. Please be aware of and sympathetic to any mores the peoples and cultures with whom you are working hold with regard to your research and publishing plans. Be open, honest, and precise in your discussions with what you want to use and the means by which you intend to distribute it—in print, online, open access, etc. Don't assume you can use materials without offense, or that permission to use them in one way suggests permission to use them in others without being specifically cleared to do so.
+Reproducing materials from any community involves more than just legal precedent. Please be aware of and sympathetic to any mores the peoples and cultures with whom you are working hold with regard to your research and publishing plans. Be open, honest, and precise in your discussions with what you want to use and the means by which you intend to distribute it—in print, online, open access, etc. Don't assume you can use materials without offense, or that permission to use them in one way suggests permission to use them in others without being specifically cleared to do so.
 
 ## Determining Whether Permission Is Required
-There are many gray areas in copyright law, especially as regard fair use, and your publisher will have its own distinct set of standards under which it operates. With that in mind, the following are items to be aware of as you conduct your research:
+There are many gray areas in copyright law, especially as regard fair use, and your publisher will have its own distinct set of standards under which it operates. With that in mind, the following sections will be useful in reviewing your materials:
 
+### General Guidelines
 *	Anything _published_ before 1923 is in the public domain and can be used freely.
 *	Materials created before 1923 _but never before published_ may still be in copyright.
-*	Materials that are freely available in public spaces (e.g., murals, statues, materials on the Internet) are not, simply because of their location, in the public domain. The standard criteria that applies to other works applies equally to them. *Exception*. Pictorial representations of architectural works that have been constructed do not require permission from those involved in the designing or building of the structure; instead you will only require the permission of the photographer.
-*	If you are securing materials from an archive or museum, there are two distinct forms of permission in play: (1) copyright and (2) access. The former speaks to copyright law, the latter to that particular institution's guidelines in allowing researchers to use materials in their keeping.
+*	Materials that are freely available in public spaces (e.g., murals, statues, materials on the Internet) are **not**, simply because of their location, in the public domain. The standard criteria that applies to other works applies equally to them.
+	*	*Exception*. Pictorial representations of architectural works that have been constructed do not require permission from those involved in the designing or building of the structure; instead you will only require the permission of the photographer.
+*	If you are securing materials from an archive or museum, there are two distinct forms of permission in play: (1) copyright and (2) access. The former speaks to legal code, the latter to that particular institution's guidelines in allowing access to use or reprint materials in their keeping. Work with archivists and reference librarians in ascertaining what kinds of permissions, if any, you'll need for the materials you are interested in reproducing.
 	*	In some cases materials may have been donated under conditions that limit how they can be used.
-	*	Similarly, an institution can limit your access to representations of works of art in the public domain. Gaining access to those materials generally requires the permission of the housing agent.
-	*	Work with archivists and reference librarians in ascertaining what kinds of permissions, if any, you'll need for the materials you are interested in reproducing.
-*	For interview materials, be they audio, video, or transcribed, you will need permission from your institution's interview review board (if applicable) and the interviewee(s). Some publishers will require written confirmation from each party, others only your confirmation that all parties were agreeable to your use of the material. You will also need consent from any party who taped, recorded, or transcribed the sessions in question.
+	*	Similarly, an institution can limit your access to representations of works of art, even those that are in the public domain. Gaining access to those materials generally requires the permission of the housing agent.
 
 ### Journal Articles or Book Chapters
 If any of your chapters have been previously published in journals or anthologies (or contributed volumes), you must seek permission to reprint the material unless it has been *extensively* revised for republication. For example:
@@ -33,6 +33,9 @@ Quotations from lines of poetry or song lyrics do not require permission as long
 ### Unpublished Works
 Permission is required from the rights holder for any amount of unpublished archival materials quoted, such as private correspondence and manuscripts.
 
+### Unpublished Interviews
+*	Be they audio, video, or transcribed, you may need permission from your institution's interview review board (if applicable) and the interviewee(s). Some publishers will require written confirmation from each party, others only your confirmation that all parties were agreeable to your use of the material. You will also need consent from any party who taped, recorded, or transcribed the sessions in question. If you are not reproducing direct quotes or have altered/obfuscated the names of those interviewed, formal permission may not be necessary. Check with your publisher on how best to proceed.
+
 ### Photographs
 Photographs other than the author’s own require permission. Exceptions are screen captures and promotional publicity stills for films, which are considered fair use under the justification that they are small parts of a much larger whole. If there is a credit line or copyright notice to the publicity photo, your publisher *must* be consulted and will determine if it requires permission. Fair use *does not* apply to photographs of staged performances. Permission for material from websites follows the same guidelines as material from printed sources unless the content is explicitly designated as open access or public domain.
 
@@ -45,8 +48,8 @@ Advertisements, posters, interior pages of newspapers or magazines, book and mag
 ### Tables, Diagrams, Charts, Maps, and Graphs
 Visual representations of data are considered fair use as long as there is not a strong artistic element to the works, which will be determined by your publisher.
 
-## Digital Rights
-Whenever possible, make sure that reproduction rights granted include digital (e-book) usages. Images, prose, and verse for which digital rights are not specified will be omitted from e-book versions of your work.
+### Additional Resources
+For more information regarding the use of copyrighted materials, as well as interpretations of fair use and information in the public domain, see the [Univeristy of Chicago's permission guidelines for authors](http://www.press.uchicago.edu/Misc/Chicago/copy_and_perms.pdf), the [Cornell Copyright Information Center site](http://copyright.cornell.edu/resources/publicdomain.cfm), and the [Association of American University Presses’ permission FAQ](http://www.aaupnet.org/images/stories/documents/aauppermfaqs.pdf).
 
 ## How to Request Permission
 ### Letter of Request
@@ -57,9 +60,6 @@ Originals of all letters you receive granting permission, as well as letters ret
 
 ### Fees
 Unless otherwise agreed upon, you are responsible for paying all permissions fees.
-
-### Additional Resources
-For more information regarding the use of copyrighted materials, as well as interpretations of fair use and information in the public domain, see the [Univeristy of Chicago's permission guidelines for authors](http://www.press.uchicago.edu/Misc/Chicago/copy_and_perms.pdf), the [Cornell Copyright Information Center site](http://copyright.cornell.edu/resources/publicdomain.cfm), and the [Association of American University Presses’ permission FAQ](http://www.aaupnet.org/images/stories/documents/aauppermfaqs.pdf).
 
 ## Securing and Submitting Permissions
 ## Permission Requests
